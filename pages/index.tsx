@@ -40,7 +40,7 @@ export default function Home() {
 
           </div>
         </div>
-        <div className={`absolute bg-[#131215] border-none z-30 w-full overflow-hidden duration-500 flex flex-col gap-3 md:hidden text-slate-50 font-semibold text-3xl pb-4 h-fit ${menuheight}  origin-top`}>
+        <div className={`absolute bg-[#131215] border-none z-30 w-full overflow-hidden duration-500 flex flex-col gap-3 md:hidden text-slate-50 font-semibold text-3xl p5-4 h-fit ${menuheight}  origin-top`}>
           <Link href="#"><span className='font-semibold text-sm  hover:text-sky-500 transition-all'>Gallery</span></Link>
           <Link href="/contact"><span className='font-semibold text-sm hover:text-sky-500 transition-all'>Contact</span></Link>
           <Link href="/news"><span className='font-semibold text-sm hover:text-sky-500 transition-all'>News</span></Link>
@@ -58,9 +58,7 @@ export default function Home() {
           </div>
         </div>
         <div className='mx-auto max-w-6x'>
-          <div className='w-full h-[30vh] sm:h-[35vh] md:h-[40vh] lg:h-[90vh] drop-shadow-lg'>
-            <Image src="/wave-tournament-1.jpeg" layout='fill'></Image>
-          </div>
+          <img src="/wave-tournament-1.jpeg" className='w-full h-[30vh] sm:h-[35vh] md:h-[40vh] lg:h-[90vh] drop-shadow-lg'></img>
           <h2 className=' text-2xl sm:text-3xl md:text-4xl font-bold text-slate-50 w-full text-center pt-32'>Our Leagues</h2>
           <div className='w-full flex flex-col md:flex-row justify-between min-h-[60vh] h-fit my-16 text-left flex-nowrap md:flex-wrap gap-10'>
             <div className='rounded-sm w-full md:w-[45%] min-h-[225px] h-[30vh] shadow-lg relative flex flex-col justify-end border-2 border-[#312e36] border-b-[#28282B] hover:border-slate-200 hover:border-b-2 transition duration-300 group hover:-translate-y-3 hover:duration-400'>
@@ -123,9 +121,9 @@ export default function Home() {
         <h4 className='text-slate-50 font-light text-sm md:text-base'>Copy Right © ESA 2022 </h4>
         <div>
           <div className='flex flex-row gap-4 text-slate-50 text-2xl items-center'>
-            <Link href='#'><FontAwesomeIcon icon={faInstagram} className='text-base md:text-2xl'/></Link>
-            <Link href='#'><FontAwesomeIcon icon={faTwitter} className='text-base md:text-2xl'/></Link>
-            <Link href='#'><FontAwesomeIcon icon={faYoutube} className='text-base md:text-2xl'/></Link>
+            <Link href='#'><FontAwesomeIcon icon={faInstagram} className='text-base md:text-2xl' /></Link>
+            <Link href='#'><FontAwesomeIcon icon={faTwitter} className='text-base md:text-2xl' /></Link>
+            <Link href='#'><FontAwesomeIcon icon={faYoutube} className='text-base md:text-2xl' /></Link>
           </div>
         </div>
       </footer>
