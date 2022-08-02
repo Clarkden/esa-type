@@ -38,8 +38,8 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className={`absolute bg-[#131215] border-none z-30 w-full overflow-hidden duration-500 flex flex-col gap-3 md:hidden text-slate-50 font-semibold text-3xl py-5 h-fit ${menuheight}  origin-top`}>
-                    <Link href="#"><span className='font-semibold text-base  hover:text-sky-500 transition-all'>Gallery</span></Link>
-                    <Link href="/contact"><span className='font-semibold text-base hover:text-sky-500 transition-all'>Contact</span></Link>
+                    <Link href="/"><span className='font-semibold text-base  hover:text-sky-500 transition-all'>Home</span></Link>
+                    <Link href="#"><span className='font-semibold text-base hover:text-sky-500 transition-all'>Gallery</span></Link>
                     <Link href="/news"><span className='font-semibold text-base hover:text-sky-500 transition-all'>News</span></Link>
                 </div>
             </nav>
