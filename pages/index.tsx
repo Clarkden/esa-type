@@ -73,7 +73,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='rounded-sm w-full md:w-[45%] min-h-[250px] h-[30vh] shadow-lg relative flex flex-col justify-end border-2 border-[#312e36] border-b-[#28282B] hover:border-slate-200 hover:border-b-2 transition duration-300 group hover:-translate-y-3 hover:duration-400'>
+            <div className='rounded-sm w-full md:w-[45%] min-h-[225px] h-[30vh] shadow-lg relative flex flex-col justify-end border-2 border-[#312e36] border-b-[#28282B] hover:border-slate-200 hover:border-b-2 transition duration-300 group hover:-translate-y-3 hover:duration-400'>
               <div className='bg-transparent group-hover:bg-[#28282B]/75 rounded-b-sm w-full h-full flex flex-col justify-end transition-all duration-300 relative z-20 group'>
                 <div className='h-full p-4 flex flex-col justify-between relative'>
                   <img src='EBA Logo.png' className='absolute w-[50%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 group-hover:opacity-40 transition-all duration-300'></img>
@@ -85,7 +85,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='rounded-sm w-full md:w-[45%] min-h-[250px] h-[30vh] shadow-lg relative bg-[url("../public/wave-tournament-1.jpeg")] flex flex-col justify-end'>
+            <div className='rounded-sm w-full md:w-[45%] min-h-[225px]] h-[30vh] shadow-lg relative bg-[url("../public/wave-tournament-1.jpeg")] flex flex-col justify-end'>
               <div onMouseEnter={() => setEibl(true)} onMouseLeave={() => setEibl(false)} className='bg-transparent hover:bg-[#28282B]/75 rounded-b-sm w-full h-full flex flex-col justify-end transition-all duration-300'>
                 <div className='h-full p-4 flex flex-col justify-between'>
                   {eibl ? <>
@@ -99,7 +99,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className='rounded-sm w-full md:w-[45%] min-h-[250px] h-[30vh] shadow-lg relative bg-[url("../public/wave-tournament-1.jpeg")] flex flex-col justify-end'>
+            <div className='rounded-sm w-full md:w-[45%] min-h-[225px] h-[30vh] shadow-lg relative bg-[url("../public/wave-tournament-1.jpeg")] flex flex-col justify-end'>
               <div onMouseEnter={() => setIg(true)} onMouseLeave={() => setIg(false)} className='bg-transparent hover:bg-[#28282B]/75 rounded-b-sm w-full h-full flex flex-col justify-end transition-all duration-300'>
                 <div className='h-full p-4 flex flex-col justify-between'>
                   {ig ? <>
